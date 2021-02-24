@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<addon scheme='2.0'>
+    <id>am_kavenegar_sms</id>
+    <version>1.0.0</version>
+    <name>SMS</name>
+    <description>send sms via Kavenegar</description>
+    <priority>100500</priority>
+    <supplier>Mahdian</supplier>
+    <status>active</status>
+
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="api_key">
+                        <name>Api Key</name>
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="sender">
+                        <name>Sender Phone Number</name>
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>
